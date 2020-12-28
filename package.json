@@ -6,7 +6,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build-sample": "gatsby build",
+    "build": "gatsby build",
     "start": "gatsby develop -p 9031",
     "build-next": "rm -rf .next && rm -rf dist && rm -rf out && next build && next export",
     "start-next": "next -p 9031"
