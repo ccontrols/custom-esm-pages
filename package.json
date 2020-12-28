@@ -1,0 +1,26 @@
+{
+  "name": "custom-esm-pages",
+  "description": "component-controls example esm custom tab pages",
+  "private": true,
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build-sample": "gatsby build",
+    "start": "gatsby develop -p 9031",
+    "build-next": "rm -rf .next && rm -rf dist && rm -rf out && next build && next export",
+    "start-next": "next -p 9031"
+  },
+  "dependencies": {
+    "@component-controls/gatsby-theme-stories": "^2.5.1",
+    "@component-controls/nextjs-plugin": "^2.5.1",
+    "gatsby": "^2.29.2",
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccontrols/custom-esm-pages.git"
+  }
+}
