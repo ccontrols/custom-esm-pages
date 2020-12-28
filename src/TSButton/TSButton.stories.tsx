@@ -8,3 +8,9 @@ export default {
 } as Document;
 
 export const main: Example = () => <TSButton>some text</TSButton>;
+
+export const color = () => (
+  <TSButton color="darkgrey" backgroundColor="grey">
+    contrast issue
+  </TSButton>
+);
