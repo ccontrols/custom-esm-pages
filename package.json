@@ -12,8 +12,8 @@
     "start-next": "next -p 9031"
   },
   "dependencies": {
-    "@component-controls/gatsby-theme-stories": "^2.6.0",
-    "@component-controls/nextjs-plugin": "^2.6.0",
+    "@component-controls/gatsby-theme-stories": "^2.6.1",
+    "@component-controls/nextjs-plugin": "^2.6.1",
     "gatsby": "^2.29.2",
     "next": "^10.0.3",
     "polished": "^4.0.5",
